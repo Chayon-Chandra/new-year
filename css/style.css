@@ -1,0 +1,90 @@
+/* fonts */
+@font-face {
+    font-family:m-regular;
+    src: url(../font/Merriweather-Regular.ttf);
+}
+@font-face {
+    font-family:m-black;
+    src: url(../font/Merriweather-Black.ttf);
+}
+@font-face {
+    font-family:i-black;
+    src: url(../font/Inter-Black.otf);
+}
+@font-face {
+    font-family:i-bold;
+    src: url(../font/Inter-Bold.otf);
+}
+@font-face {
+    font-family:i_medium;
+    src: url(../font/Inter-Medium.otf);
+}
+@font-face {
+    font-family:i-semi;
+    src: url(../font/Inter-SemiBold.otf);
+}
+@font-face {
+    font-family:i-regular;
+    src: url(../font/Inter-Regular.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+body{
+    background-color: #FFFFFF;
+}
+:root{
+    --white-color: #FFFFFF;
+}
+/* shear class */
+
+/* header section start */
+header{
+    margin: 50px 0;
+}
+.header-container{
+    margin: 0 auto;
+    width: 90%;
+    background-image: url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    /* height: 600px; */
+}
+.banner-overlay{
+    height: 600px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .5);
+    position: relative;
+    
+}
+.banner-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-box p{
+    font-family:m-regular;
+    color: var(--white-color);
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+}
+.banner-box h1{
+    margin-top: 15px;
+    font-family:m-black;
+    color: var(--white-color);
+    font-size: 4.5rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+}
+/* header section end */

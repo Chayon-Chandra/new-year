@@ -51,7 +51,15 @@ body{
     --black-color:#070211;
 }
 /* shear class */
-
+.btn-b{
+    padding: 5px 15px;
+    font-family: var(--i-bold);
+    color: var(--white-color);
+    background-color: var(--red-color);
+    font-size: 1.25rem;
+    font-weight: 400;
+    border-radius: 10px;
+}
 /* header section start */
 header{
     margin: 50px 0;
@@ -134,3 +142,184 @@ header{
     margin-top: 25px;
 }
 /* holiday section end */
+/* party section start */
+.party-container{
+    margin: 0 auto;
+    width: 90%;
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.party-overlay{
+    height: 600px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+.party-info{}
+.party-text{}
+.party-text h2{
+    font-size: var(--m-black);
+    color: var(--white-color);
+    font-size: 4rem;
+    font-weight: 800;
+}
+.party-text p{
+    font-family: var(--i-regular);
+    color: var(--white-color);
+    font-size: 1.12rem;
+    font-weight: 400;
+}
+.party-text button{}
+.party-img{}
+.party-img img{}
+/* party section end */
+/* time section start */
+#place{
+    margin-top: 80px;
+}
+.place-container{
+    margin: 0 auto;
+    padding: 80px 0;
+    width: 90%;
+    background: linear-gradient(to bottom, #FFE8E8, #FFFFFF);
+    border-radius: 10px 10px 0 0;
+}
+.place-text{
+    text-align: center;
+}
+.place-text h3{
+    font-family: var(--i-semi);
+    color: var(--red-color);
+    font-size: 2rem;
+    font-weight: 600;
+}
+.place-text h3 span{
+    color: var(--black-color);
+}
+.place-text button{
+    margin-top: 30px;
+}
+/* time section end */
+/* new best section start */
+.new-container{
+    margin: 0 auto;
+    width: 90%;
+}
+.new-text{}
+.new-text h5{
+    font-family: var(--i_medium);
+    color: var(--red-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.new-text h3{
+    font-family: var(--m-black);
+    color: var(--black-color);
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.new-text p{
+    font-family: var(--i-regular);
+    color: var(--black-color);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.new-img{
+    border: 8px solid red;
+    border-radius: 50%;
+}
+.new-img img{
+    padding: 20px;
+}
+.new-year h6{
+    font-family: var(--i-bold);
+    color: var(--red-color);
+    font-size: 3rem;
+    font-weight: 700;
+}
+.new-year p{
+    font-family: var(--i-regular);
+    color: var(--black-color);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.new-year img{
+    margin-top: 10px;
+}
+/* new best section end */
+/* functional section start */
+#function{
+    margin: 100px 0 50px 0;
+}
+.function-container{
+    margin: 0 auto;
+    width: 90%;
+}
+.function-info{
+    text-align: center;
+}
+.function-info h3{
+    font-family: var(--i_medium);
+    color: var(--black-color);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.function-info h2{
+    font-family: var(--m-black);
+    color: var(--red-color);
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+.function-info h2 span{
+    color: var(--black-color);
+}
+.function-info p{
+    font-family: var(--i_medium);
+    color: var(--black-color);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.discount{
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:575px; 
+}
+.discount img{}
+/* functional section end */
+/* gift section start */
+#gift{
+    margin: 50px 0;
+}
+.gift-container{
+    margin: 0 auto;
+    width: 90%;
+}
+.gift-container h3{
+    font-family: var(--i_medium);
+    color: var(--red-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.gift-container h2{
+    font-family: var(--m-black);
+    color: var(--black-color);
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.gift-container p{
+    font-family: var(--i-regular);
+    color: var(--black-color);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.gift-item{
+    margin-top: 30px;
+}
+/* gift section end */
